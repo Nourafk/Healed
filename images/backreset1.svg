@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1483 680" width="1483" height="680">
+	<title>image</title>
+	<defs>
+		<linearGradient id="g1" x1="1522" y1="650.7" x2="-19.8" y2="417.2" gradientUnits="userSpaceOnUse">
+			<stop offset=".4" stop-color="#f3f7ff" stop-opacity="0"/>
+			<stop offset=".9" stop-color="#d0ceeb" stop-opacity=".4"/>
+			<stop offset="1" stop-color="#cac8e8" stop-opacity=".4"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="470.6" y1="382.9" x2="1592.7" y2="653.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f3f7ff" stop-opacity=".3"/>
+			<stop offset="1" stop-color="#ffc17d" stop-opacity=".7"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .8;fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+	</style>
+	<path id="Layer" class="s0" d="m1181 701.4c-74.2 49.7-286.2-67-544.5-75.6c-223.7-7.4-210.9 75.9-398.8 40c-137.3-26.3-300.4-99.3-407.5-196.4c-118.1-107.1-113.9-195-111.6-216.1c9.9-94.8 115.3-127.7 152.6-138.8c153.9-45.4 356.4 1.6 453.6 24.1c365 84.6 795.4 304.7 864 476.2c9 22.5 25.6 64.1-7.8 86.6z" />
+	<path id="Layer" class="s1" d="m275.2 392.7c54.5-84.8 312.5-43.2 574.1-138.9c226.5-82.9 180.9-169.2 382.9-206.3c147.5-27.1 339.4-13.4 484.8 49.5c160.3 69.5 190.8 167.6 196.9 191.7c27.4 108-64.9 187.1-97.8 214.4c-135.9 112.5-356.9 143.5-463 158.4c-398.2 55.9-915.4-10.4-1051.6-170.7c-17.9-20.9-50.9-59.9-26.3-98.1z" />
+</svg>

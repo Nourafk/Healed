@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+    --purple:#9084C2;
+    --pink:#FBD8E6;
+    --orange: #FEAD54;
+    --gradient:linear-gradient(90deg, var(--purple), var(--pink));
+    --surface-color: #fff;
+    --curve: 40;
+    --bg-color: #E6E5E1;
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+}
+
+*::selection{
+     color: #B993D6;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background:#f9f9f9;
+}
+
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+
+
+}
+.btn {background-image: linear-gradient(to right, #B993D6 0%, #F78CB1  51%, #B993D6  100%)}
+.btn {
+  /* margin: 10px;*/
+  margin-top: 1rem;
+  padding:.8rem 3rem;
+  border-radius: 5rem;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: inline-block;
+   font-size: 1.7rem;
+
+  /* transition: all .3s linear;*/
+ } 
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   transform: scale(1.05);
+   text-transform: uppercase;
+   padding: 1 rem;
+ }
+.heading{
+    text-align: center;
+    background: #333;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+}
+
+
+
+
+
+
+.contactus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+.contactus.image{
+    flex:1 1 40rem;
+
+}
+          
+.contactus.image img{
+    width:100%;
+    padding: 2rem;
+
+
+}
+.contactus form{
+    flex:1 1 40rem;
+    padding: 2rem 3rem;
+    border: rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius:  calc(var(--curve) * 1px);
+    background: #fff;
+
+}
+.contactus form .heading{
+    text-align: left;
+    padding: 0;
+    padding-bottom: 2rem;
+
+}
+.contactus form .inputbox{
+    position: relative;
+}
+
+.contactus form .inputbox input, .contactus form .inputbox textarea{
+    width:100%;
+    background: none;
+    color: #666;
+    margin: 1.5rem 0;
+    padding: .5rem 0;
+    font-size: 1.7rem;
+    border-bottom: .1rem solid rgba(0, 0, 0, .1);
+    text-transform: none;
+}
+
+.contactus form .inputbox textarea{
+    resize: none;
+    height: 13rem;
+
+}
+.contactus form .inputbox label{
+    position: absolute;
+    top:1.7rem; left: 0;
+    font-size: 1.7rem;
+    color: #666;
+    transition: .2s linear;
+
+
+}
+
+.contactus form .inputbox input:focus~label,
+.contactus form .inputbox input:valid~label,
+.contactus form .inputbox textarea:focus~label,
+.contactus form .inputbox textarea:valid~label{
+    top: -.5rem;
+    font-size: 1.5rem;
+    color: var(--purple);
+
+}

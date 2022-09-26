@@ -1,0 +1,1477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/* حق نورة الراجحي*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.header_fixed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.tabel-box{
+    margin: 50px auto;
+
+}
+.tabel-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: black;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.tabel-cell{
+    display: table-cell;
+    width:30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid pink;
+    vertical-align: middle;
+
+}
+.tabel-head{
+    background: powderblue;
+    box-shadow: non;
+    color: #030229;
+}
+.tabel-head .tabel-cell{
+    border-right: none;
+}
+.last-cell{
+    border-right: none;
+}
+
+tabel{
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px thin #dddddd;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+tr:ntn-child(even){
+    background-color: #dddddd;
+}
+
+tr:hover td{
+    color: #9084C2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 50, 0.3);
+}
+tr{
+    color: #9084C2;
+}
+
+
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+   background-color:  #9084C2;
+    
+            opacity: 100%;
+}
+td button:hover{
+    background-color: #635DAD;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    
+}
+.EYES{
+   
+    color: #635DAD;
+}
+
+
+ button.SETApp{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;  
+    color: white;
+    background-color: #635DAD;
+            opacity: 62%;
+            position: absolute;
+            bottom: 1%;
+            left: 180px;
+          
+}
+button.SETApp:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    
+}
+
+button.SETApp2{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+
+    background-color: #635DAD;
+            opacity: 62%;
+            position: absolute;
+            bottom:.5%;
+            left: 180px;
+           
+           
+}
+button.SETApp2:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+
+.CAT{
+    position: absolute;
+    bottom: -13rem;
+    left: 17%;
+    z-index: 3;
+    width: 240px;
+    height: 226px;
+}
+
+.CAT2{
+    position: absolute;
+    bottom:4%;
+    left: 19%;
+    z-index: 3;
+}
+
+
+
+
+td.DELET button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+
+    background-color: #FF74AB;
+            opacity: 100%;
+}
+td.DELET button:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    cursor: pointer;
+    
+}
+
+td.PENDING button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+
+    background-color:#A4A4A4;
+            opacity: 100%;
+}
+td.PENDING button:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+   
+}
+td.Approved button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+
+    background-color:#fcb76d;
+            opacity: 100%;
+}
+td.Approved button:hover{
+    background-color:#FEAD54;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    
+}
+td.Declined button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+    color: white;
+
+    background-color:#FF765F;
+            opacity: 62%;
+}
+td.Declined button:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    
+}
+body::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+
+
+
+
+.header_fixed{
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(152, 131, 245, 0.2);
+    width: 1000px;
+    height: 470px;
+    border: 1px ;
+    overflow: scroll;
+    position: absolute;
+    right: 200px;
+    bottom: 60px;
+    border-radius: 20px;
+    z-index: 2;
+    text-align: center;
+}
+.header_fixed3{
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(152, 131, 245, 0.2);
+    width: 900px;
+    height: 450px;
+    border: 1px ;
+    overflow: scroll;
+    position: absolute;
+    right: 250px;
+  padding-left: 170px;
+   
+    bottom: 60px;
+    border-radius: 20px;
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+.header_fixed4{
+   
+        background-color: white;
+        box-shadow: 0 10px 20px 0 rgba(152, 131, 245, 0.2);
+        width: 800px;
+        height: 350px;
+        padding-left: 130px;
+        border: 1px ;
+        overflow: scroll;
+        position: absolute;
+        left: 350px;
+        top: 300px;
+        border-radius: 20px;
+        z-index: 2;
+        text-align: center;
+    
+}
+
+.Tabeltitel{
+    position: absolute;
+    top: 240px;
+    left: 357px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.TwoTabelBG{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+.TwoTabelBG2{
+    position: absolute;
+    bottom: -310px;
+    left: 0px;
+}
+
+.header_fixed5{
+   background-color: white;
+   box-shadow: 0 10px 20px 0 rgba(152, 131, 245, 0.2);
+   width: 800px;
+   height: 350px;
+   padding-left: 70px;
+   border: 1px ;
+   overflow: scroll;
+   position: absolute;
+   left: 350px;
+   top: 890px;
+   border-radius: 20px;
+   z-index: 2;
+   text-align: center; 
+}
+
+
+
+.Tabeltitel2{
+    position: absolute;
+    top: 830px;
+    left: 360px;
+    font-weight: bold;
+    font-size: x-large;
+    z-index: 3;
+}
+
+
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) ;
+}
+
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) ;
+}
+.CAPTION {
+ position: absolute;
+ top: 30vh;
+ left: 240px;
+ font-size: x-large;
+}
+.CAPTION2 {
+    position: absolute;
+    top: 30vh;
+    left: 300px;
+    font-size: x-large;
+   }
+   
+td a{
+    color: gray;
+}
+td a:hover{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    color: gray;
+
+}
+
+.BACKGROUND{
+  position: absolute;
+  background-position: right ;
+  left: 1000px;
+  top:40px;
+  background-attachment: fixed;
+  z-index: 0;
+}
+th.HEADER{
+    background-color: white;
+    position: sticky;
+    top: 0;
+   
+    
+}
+
+
+.PetImage:hover{
+ 
+ border-radius: -30%;
+}
+
+
+
+
+/* حق نورة الخريف*/
+.body .Noura{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.part1{
+    margin-left: 23% ;
+    padding: 20px 35px;
+    max-width: 700px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(152, 131, 245, 0.2);
+}
+.part1 .title {
+    font-size: 30px;
+    font-weight: 500px;
+    position: relative;
+
+}
+.part1 form .appointment-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0 ;
+}
+form  .input-box{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width:200px;
+    
+}
+ .input-box .details{
+    display: block;
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+ .input-box select {
+height: 60px;
+width: 160%;
+outline: none;
+border-radius: 5px;
+border: 1px solid #F0EFEF ;
+background-color:#F0EFEF;
+padding-left: 15; 
+font-size: 18px;
+}
+ .input-box input {
+    height: 60px;
+    width: 160%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF;
+    background-color:#F0EFEF     ;
+    padding-left: 15; 
+    font-size: 18px;
+    }
+ .input-box textarea{
+    height: 150px;
+    width: 160%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 18px;
+    }
+    .back1{
+        position: absolute;
+        background-position: left;
+        left:0%;
+        background-attachment: fixed;
+        z-index: -1;
+    }
+    .back2{
+        position: absolute;
+        left: 30%;;
+        bottom: -24%;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .input-box .email{
+        display: block;
+        font-weight: 500px;
+        margin-bottom: 5px;
+    }
+    .part2{
+        margin-left: 20% ;
+        margin-top:4% ;
+        padding: 20px 35px;
+        background-color: white;
+        max-width: 700px;
+        width: 100%;
+        z-index: 0;
+        border-radius: 5px;
+        box-shadow: rgba(152, 131, 245, 0.2);}
+
+    .part2 .title {
+        font-size: 23px;
+        font-weight: 500px;
+        position: relative;
+    }
+
+    .BACKGROUND3{
+        position: absolute;
+        background-position: right ;
+        left:900px;
+        top:40px;
+        background-attachment: fixed;
+        z-index: 1;
+        width:1000px
+      }
+    .back3{
+        position: absolute;
+        background-position: left;
+        left: 600px;;
+        top: 155px  ;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 150px;
+        height: 150px;
+    }
+    .back4{
+        position: absolute;
+        background-position: left;
+        left: 600px;;
+        top: 200px  ;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 150px;
+        height: 150px;
+    }
+    .back5{
+        position: absolute;
+        background-position: left;
+        left: 750px;;
+        top: 180px  ;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 150px;
+        height: 150px;
+    }       
+    .back6{
+        position: absolute;
+        background-position: left;
+        left: 80%;
+        bottom: 120%  ;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 25px;
+        height: 25px;
+    }      
+    .back7{
+        position: absolute;
+        background-position: left;
+        background-attachment: fixed;
+        z-index: 0;
+        width: 15px;
+        height: 15px; }
+    .button2{
+        margin-left: 10px;
+        margin-right: 100px;
+        margin-top: 2%;
+        
+        }
+
+    /*
+    form .button1{
+        height: 45px;
+        margin: 45px 0 ;
+    }
+    form .button1 input{
+        height: 100%;
+        width: 50% ;
+        outline: none;
+        background-color: #635DAD ;
+        font-size: 16px;
+        font-weight: 500px;
+        color:white;
+        border-radius: 5px;
+        margin: 10px auto;
+        display: block;
+    }*/
+  
+
+    /* حق مها النعيم */
+  /* Rest Password*/
+    .ResetPage{
+        background-image: url(../images/bglp.svg);
+        background-repeat: no-repeat;
+        background-position:right ;
+    }
+  #Base{
+        
+    position: relative;
+    max-width: 1000px;
+    top: 100px;
+    left: 350px;
+        
+    }
+    .Dogpic{
+  
+        position: absolute;
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+    
+    #Heading{
+    
+    padding-left: 24px;
+    font-size: 2.5em;
+    font-weight: 300;
+    
+    
+    }
+    #msg{
+        font-size: 0.9em;
+    background-color: #ff74ab38;
+    width: 300px;
+    margin-top: 10px;
+    }
+    .ResetPasswordfield{
+        width: 500px;
+        position: absolute;
+        top: 140px;
+        font-size: 1.7em;
+        font-weight: 150;
+
+    }
+    .ResetPasswordfield input{
+        height: 50px;
+        width: 500px;
+        outline: none;
+        border-radius: 20px;
+        border: 1px solid #ebebee;
+        background-color: #F0EFEF;
+        padding-left: 20px;
+        font-size: 12px;}
+
+
+.Resetbutton{     
+    position: absolute;
+ 
+    top: 18em;
+    font-size: 1.8em;
+}
+#confirmbtn{
+    border: none;
+        padding: 7px;
+        border-radius: 20px;
+        background-color: #635DAD;
+        opacity: 62%;
+        color: white;
+        width: 150px;
+        height: 40px;
+        position: relative;
+        left: 100px;
+        margin-top: 50px;
+    }
+#Backbtn{
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #635DAD;
+    opacity: 62%;
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 90px;
+    margin-top: 50px;   
+}
+ .button{
+        border: none;
+        padding: 7px 80px;
+        border-radius: 20px;
+        background-color: #635DAD;
+        opacity: 62%;
+        color: white;
+     
+        
+}
+.button:hover { 
+        opacity: 100%;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+     }
+
+     /* Add Appointment-Appointment Details*/
+.AppointmentSec{
+    background-image:url("image 9.46.53 PM.svg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom left;
+}
+.PageBase{
+    padding-left: 200px;
+    margin-top: 50px;
+}
+.PageRows{
+    width: 100%;
+    height: 170px;
+    
+        } 
+ .ServiceSelect{               
+    float: left;
+   width: 200px;
+   margin-top: 50px;
+   position: relative;
+   font-size: 1.5em;
+}
+
+  .DateSelect{
+    float: left;
+   margin-right:300px; 
+   font-size: 1.5em;
+}
+           
+ .TimeSelect{             
+ float: left;
+ width: 200px;
+ font-size: 1.5em;
+
+ }
+
+ .fieldselect{
+    width: 300px;
+    height: 50px;
+    background: #F0EFEF;
+    border: #f7f7f7;
+    border-radius: 15px;
+    padding-left: 0px;
+    box-shadow : none; 
+   text-indent: 15px;
+   color: #403e63;
+}
+
+#timeS{
+    width: 300px;
+    height: 50px;
+    background: #F0EFEF;
+    border-radius: 15px;
+    text-indent: 15px;
+    color: #403e63;
+}
+#dateS{
+    width: 300px;
+    height: 50px;
+    background: #F0EFEF;
+   border-radius: 15px;
+   border: none;
+   text-indent: 15px;
+   color: #403e63; 
+
+}
+  
+.circle {
+    background: #F0EFEF;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: 200px;
+    float: left;
+}
+#circle {
+    background: #F0EFEF;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: 160px;
+}
+
+.ButtonRow{          
+    width: 100%;
+    height: 100px;
+    position: relative;
+    padding-left: 200px;
+    font-size: 1.8em;
+    bottom: 10px;
+    top: 100px;
+}
+.parrotimg{
+    position: relative;
+       left: -515px;
+
+    top: 26px;
+    z-index: 1;
+}
+
+.GirlDogimg{
+    position: absolute;
+    top: 69%;
+    right: 50px;
+    z-index: 1;
+}
+
+#camera{
+    position: relative;
+    color: #635DAD;
+    z-index: 4;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+.BackButtonDetails{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    padding-left: 300px;
+    font-size: 1.8em;
+    top: 100px;
+}
+
+       
+/*About Us Pages*/
+
+.AboutMRow{
+    padding-left: 100px;
+    width: 100%;
+    height: 170px;
+    padding-right: 100px;
+    
+}
+.Boxp p{
+    font-size: 1.5em;
+    font-weight: 150;
+    word-wrap: break-word;
+}
+.Aboutdescription{
+    font-size: 0.9em;
+    font-weight: 150;
+
+
+}
+ .AboutMRow2{  
+    width: 100%;
+    padding-left: 100px;
+ }
+ .AboutMRow2 h4{
+    font-size: 19px;  
+ }
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .cards .card:hover {
+    box-shadow: 0 20px 20px 0 rgba(152, 131, 245, 0.2);
+  }
+
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    padding-top: 15px;
+    
+  }
+  .cards{
+      width: 200px;
+      height: 300px;
+      float: left;
+      margin-right: 50px;
+      margin-top: 15px;
+
+  }
+  .cards .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: -4px 30px 30px -20px rgba(152, 131, 245, 0.2);
+    transition: 0.3s;
+    border-radius: 30px; /* 5px rounded corners */
+    height: 300px;
+    border: none;
+  
+    
+  }
+
+  .EditM{
+      position: absolute;
+      top: 260px;
+      left: 150px;
+  }
+  .EditH{
+    float: left;
+    left: 850px;
+  }
+  .dots{
+      position: absolute;
+      left: 260px;
+  }
+           
+
+            /* P5 Maha*/
+    
+.ReviewRow{
+width: 100%;
+position: relative;
+left: 130px;
+}
+.ReviewMsec{
+   background-image: url(BackgroundB.svg); 
+}
+
+
+    .cardReveiw{
+        position: relative;
+        width: 800px;
+        height: 500px;
+        
+    }
+    .cardReveiw p{
+        font-size: 1.7em;
+        font-weight: 300;
+    }
+    .cardReveiw .card{
+        box-shadow: 0 15px 30px 0 rgb(152 131 245 / 15%);
+        transition: 0.3s;
+        border-radius: 30px; /* 5px rounded corners */
+        height: 430px;
+        border: none;
+        background-color: #ffffff;
+    }
+    .rate {
+        float: left;
+        height: 46px;
+        padding: 0 10px;
+
+    }
+    
+    .rate:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rate:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+        margin-right:10px;
+    }
+   .rate:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rate > input:checked ~ label {
+        color: #ffc700;    
+    }
+    .rate:not(:checked) > label:hover,
+    .rate:not(:checked) > label:hover ~ label {
+        color: #ffc700;  
+    }
+    .rate > input:checked + label:hover,
+    .rate > input:checked + label:hover ~ label,
+    .rate > input:checked ~ label:hover,
+    .rate > input:checked ~ label:hover ~ label,
+    .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+    .rateM {
+        float: left;
+        height: 46px;
+        padding: 0 10px;
+
+    }
+    
+    .rateM:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rateM:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+        margin-right:10px;
+        cursor:auto;
+
+    }
+   .rateM:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rateM > input:checked ~ label {
+        color: #ffc700;    
+        cursor:auto;
+
+    }
+    .rateM:hover{
+        cursor:auto;
+    }
+    
+    .Q{
+        margin-top: 70px;
+    }
+    .commReview{
+        position:absolute;
+        top: 200px;
+    }
+    #comrev{
+     height: 100px;
+        max-height:  135px;
+        width: 300px;
+        background-color: #F7F7F8;
+        border-radius: 10px;
+        border:none ;
+        max-width: 400px;
+    padding: 10px;
+
+    }
+    ::placeholder{
+        color:#a3a2a2 ;
+        font-size: small;
+        text-indent: 10px;
+        padding-top: 10px;
+    }
+    .picP5{
+        position:absolute;
+        left: 400px;
+        top: 70px;
+
+    }
+    .Reviewbutton{
+        position: absolute;
+        top: 350px;
+        left: 270px;
+        font-size: 1.8em;
+    }
+
+  
+/*حق مها البابطين*/
+
+       /*Login page*/
+
+    body.bodyMahaB{
+        text-align: center;
+        align-content: center;
+    }
+    
+    button.loginTypeButtonChosen{
+        align-content: center;
+        display: inline;
+        margin-right: 5px;
+        border: none;
+        padding: 7px 20px;
+        border-radius: 20px;
+        background-color: #9084C2;
+        opacity: 100%;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+        color: white;
+    }
+    
+    button.loginTypeButtonNotChosen{
+        align-content: center;
+        display: inline;
+        margin-right: 5px;
+        border: none;
+        padding: 7px 20px;
+        border-radius: 20px;
+        background-color: #F0EFEF;
+        color: black;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    }
+    
+    hr.horizontalLine{
+        display:inline-flex;
+        align-items: center;
+        size: 1%;
+        width: 10%;
+        color: #dddddd;
+    }
+    
+    .loginLabels{
+        float: left;
+        text-align: left;
+        margin-left: 50%;
+        color: black;
+        font-size: 17px;
+    }
+    
+    #Uname{  
+        align-content:center;
+        position: relative;
+        height: 30px;
+        width: 20%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #F0EFEF; 
+        background-color:#F0EFEF;
+        padding-left: 15; 
+        font-size: 12px;
+    }
+    
+    #Pass{  
+        align-content:center;
+        position: relative;
+        height: 30px;
+        width: 20%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #F0EFEF;
+        background-color:#F0EFEF;
+        padding-left: 15; 
+        font-size: 12px;
+    }
+    
+    #log{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px;  
+        padding-left: 7px;  
+        background-color: #635DAD;
+        opacity: 62%;
+        color: white;  
+    }
+
+    #log:hover{
+        opacity: 100%;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+    }
+    
+    a.loginLink{  
+        color:#4610c5
+    } 
+    
+    img.visibilityEye{
+        margin-left: -30px; 
+        cursor: pointer;
+    }
+             
+   
+    /*Sign Up Page*/
+
+div.signUpCirc{
+    position: relative; left: 41.5%; top: 100px;
+    background: #F0EFEF;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    margin-bottom: 2%;
+}
+
+div.signUpCam{
+    position: relative;
+    top: 45%;
+    color:#635DAD;
+    opacity: 62%;
+    width: -104px;
+    height: 106px;
+}
+
+body.signUpBod{}
+   
+  
+div.regCol{
+    align-content: center;
+    display: inline-block;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    
+}
+
+.firstCol{
+    display: inline-block;
+    position: relative;
+    width: 27.5%;
+    margin-right: 24ex;
+}
+
+.secondCol{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    width: 27.5%;
+}
+
+#Fname{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#Lname{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#Pnum{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#Email{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#Pass1{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+    margin-bottom: 0.075ex;
+}
+
+#Gend{
+    height: 30px;
+    width: 70.2%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+    margin-bottom: 1ex;
+}
+
+#regCirc {
+    background: #F7F7F8;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    float: left;
+}
+
+#Reg{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: #635DAD;
+    opacity: 62%;
+    color: white;
+    cursor: pointer;
+}
+
+#Reg:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+
+   /*Edit Profile Page*/
+
+div.signUpGirl{
+    position: relative;
+    top: 28px;
+    color:#635DAD;
+    opacity: 100%;
+}
+
+
+   /*Add a Service Page*/
+
+body.addservBod{
+
+}
+
+div.leftServ{
+    align-content: center;
+    display: inline-block;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px; 
+    margin-right: 110px;
+}
+
+div.rightServ{
+    position: relative; top: -104px;
+    align-content: center;
+    display: inline-block;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px; 
+}
+
+#Serv{
+    height: 30px;
+    width: 70.2%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#ServDescr{
+    height: 100px;
+    width: 70.2%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#ServPrice{
+    height: 30px;
+    width: 70.2%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+
+#AddServ{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: #635DAD;
+    opacity: 62%;
+    color: white;
+}
+
+#AddServ:hover{
+    opacity: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+                 
+
+   /*Add Pet Page*/
+
+div.addPetCirc{
+    position: relative; left: 41.5%; top: 210px;
+    background: #F0EFEF;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    margin-bottom: 2%;
+}
+
+.leftAddPet{
+    display: inline-block;
+    width: 27.5%;
+    margin-right: 12%;
+}
+
+.rightAddPet{
+    display: inline-block;
+    position: relative; top: 123px;
+}
+
+#Breed{
+    margin-top: 50ex;;
+}
+#VaccList{
+    margin-left: 15%;
+}
+
+#MedHist{
+    height: 100px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #F0EFEF ;
+    background-color:#F0EFEF;
+    padding-left: 15; 
+    font-size: 12px;
+}
+       
+/*final positions*/
+.addServiceFinalPos{
+    margin-top: -3%;
+}
+
+.addPetFinalPos{
+    margin-top: -3%;
+}
+
+.editPetFinalPos{
+    margin-top: -15%;
+}
+
+.editMyProfFinalPos{
+    margin-top: -15%;;
+}
+
+.signUpFinalPos{
+    margin-top: 1%;;
+}
+.loginFinalPos{
+    margin-top: 40px;;
+
+}
+
+/*backgroud images*/
+
+.loginpage{
+    background: url(./mahaback1.svg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.addaservicepageback{
+    background: url(../images/right\ purpl\ backg.svg) no-repeat; /*******/
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.animalphot{
+    position: relative;
+    top: -25px;
+}
+.label.makeLeft{
+    text-align: left;
+}
+
+#delAcc{
+  width: 300px;
+  height: 30px;;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  background-color: #FF74AB;
+  opacity: 100%;
+  color: white;
+  cursor: pointer;
+    }
+
+#delAcc:hover{
+  opacity: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+  cursor: pointer;
+    }
+
+.addpetbackg{
+    background: url(../images/background\ pinkpurp\ maha.svg) no-repeat; /*******/
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.petprofbackg{
+    background: url(../images/ResetB.svg) no-repeat; /*******/
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.requestbg{
+    background: url(../images/aboutusblank.svg) no-repeat; /*******/
+    background-size: cover;
+    background-position: center;
+
+}
